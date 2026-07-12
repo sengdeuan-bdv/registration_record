@@ -37,6 +37,12 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000). Without the env vars set,
 the app still renders with a "Supabase is not configured" notice on each page.
 
+## Deployment
+
+Deployed on [Vercel](https://vercel.com) with auto-deploys on every push to
+`main`. `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` are set
+as project environment variables (Production, Preview, and Development).
+
 ## Structure
 
 - `app/` — Next.js App Router pages: Dashboard, Activities (list + detail),
